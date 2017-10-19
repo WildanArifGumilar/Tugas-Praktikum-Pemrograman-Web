@@ -1,0 +1,65 @@
+*{margin: 0;padding: 0;font-family: Arial;}
+body{background: #f1f1f1;}
+.cont{width: 350px;margin: 0 auto;background: #fff;margin-top: 170px;border-radius: 3px;box-shadow:2px 2px 5px #ddd;}
+.cont table{padding: 20px;width: 100%;}
+.cont input[type=text],.cont input[type=password]{width: 100%;padding: 10px;margin: 10px 0px;outline: 0;border: 1px solid #ddd;border-radius: 3px;color: #666;}
+.cont h1{    font-size: 18px;
+    padding: 15px 20px;
+    color: #666;border-bottom: 1px solid #f1f1f1}
+    .cont input[type=submit]{transition: 0.3s;border: 0;cursor: pointer;padding: 8px 15px;color: #fff;background: #2ecc71;border-radius: 3px;outline: 0;}
+.cont input[type=submit]:hover{box-shadow:1px 1px 3px #ddd;}
+#status{position: absolute;top: 20px;right: 20px;padding: 10px;background: #fff;font-size: 13px;color: #666;border-radius: 3px;box-shadow:1px 1px 3px #ddd;display: none}
+.both{clear: both;}
+.sidebar{width: 20%;float: left;background: #222d33;position: fixed;height: 100%;}
+.sidebar .tittle{padding: 17px;font-size: 21px;background: #367fa8;color: #fff;display: block;text-decoration: none;}
+.sidebar ul{margin-top: 20px;}
+.sidebar ul li{list-style: none;display: block;}
+.sidebar ul li a{padding: 18px 20px;display: block;color: #fff;text-decoration: none;font-size:14px;}
+.sidebar ul li a i{padding-right: 10px;}
+.sidebar ul li a:hover{color: #367fa8;background: #1a2225}
+nav{width: 80%;background: #3c8dbc;position: fixed;}
+nav .left{float: left;}
+nav .right{float: right;}
+nav ul li{list-style: none;display: inline;}
+nav ul li a{display: inline-block;}
+nav .right li a{padding: 20px;color: #fff;cursor: pointer;}
+nav ul li ul{position: absolute;background: #222d33;display: none;width: 132px;}
+nav ul li ul li{float: none;}
+nav ul li:hover ul{display: block;}
+nav ul li ul li a{display: block;padding: 15px 20px !important;text-decoration: none;color: #fff !important;font-size: 12px;}
+.block{width: 80%;float: right;}
+.contadmin{margin-top: 59px;padding: 20px;}
+.tkategori{background: #2ecc71;font-size: 13px;color: #fff;text-decoration: none;padding: 10px 15px;display: inline-block;}
+.title{display: block;font-size: 20px;color: #666;padding-bottom: 15px;}
+.cssform{display: inline-block;}
+.cssform input{outline: 0;border: 0;display: block;margin-bottom: 10px;}
+.cssform input[type=text]{border: 1px solid #ccc;padding: 10px;width: 600px;color: #666;font-size: 14px;}
+.cssform input[type=submit]{padding: 4px 8px;color: #fff;background: #2ecc71;cursor: pointer;}
+.tb_kat{border-collapse: collapse;font-size: 16px;color: #666;display: block;margin:20px 0px;}
+.tb_kat td,.tb_kat th{border: 1px solid #f1f1f1;padding: 8px;}
+.label{width: 80px;font-size: 14px;color: #666;padding:10px;border: 1px solid #ccc;display: inline-block;margin-bottom: 10px;background: #f1f1f1;border-right: 0;}
+.select{display: inline-block;width: 500px;padding:9px 10px;font-size: 14px;color: #666;outline: 0;border: 1px solid #ccc;margin-left: -5px;}
+.input[type=file]{}
+.inputgambar{display: inline-block;
+    border: 1px solid #ccc;
+    margin-left: -5px;
+    width: 498px;}
+   .keterangan{
+   	width: 600px;resize: none;
+   	border: 1px solid #ccc;
+   	height: 300px;padding: 10px;outline: 0;
+   }
+   .btn{
+  display: inline-block;
+  padding:4px 8px;
+  background: #2ecc71;
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+}
+.red{
+  background: #e74c3c !important;
+}
+.btn:hover{
+  background: #444
+}
